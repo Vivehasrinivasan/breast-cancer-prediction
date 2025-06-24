@@ -1,0 +1,112 @@
+/* Global */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #dbeafe, #eff6ff);
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 2rem;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2563eb;
+    padding: 2rem 1rem 1rem;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #1e40af;
+}
+
+.nav-link:hover {
+    background-color: #e0f2fe;
+    border-radius: 6px;
+}
+
+/* Main content layout */
+.main-content {
+    margin-left: 250px;
+    padding: 3rem;
+}
+
+/* Headings */
+.vibrant-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0f172a;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Section headings (Mean, Error, Worst) */
+h5 {
+    color: #1e3a8a;
+    font-weight: 600;
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #2563eb;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #1d4ed8;
+}
+
+/* Prediction box */
+.prediction-box {
+    background-color: #e0f2fe;
+    color: #1e3a8a;
+    border: 2px solid #90cdf4;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    box-shadow: 0 0 8px rgba(0, 64, 128, 0.1);
+}
+
+/* Chart heading */
+.chart-section h4,
+.text-white {
+    color: #0f172a !important;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+input.form-control {
+    border-radius: 6px;
+}
+/* Main content padding so it's not hidden behind sidebar */
+.main-content {
+    margin-left: 250px;
+    padding: 3rem;
+}
+
+/* Ensure chart section doesn't overflow */
+canvas {
+    width: 100% !important;
+    max-height: 600px;
+}
