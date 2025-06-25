@@ -1,26 +1,43 @@
-# 🧠 Breast Cancer Prediction Web App
 
-This is a simple and user-friendly web application that predicts breast cancer (Benign or Malignant) based on 30 medical features extracted from digitized images of a breast mass.
+# 🔷 BlueScan – Breast Cancer Prediction App
 
-![App Screenshot](https://your-screenshot-url-if-you-upload-it)
+BlueScan is a Machine Learning-powered web application that predicts the likelihood of breast cancer based on diagnostic data. Built with Flask and trained using Random Forest, the app allows both **manual input** and **CSV upload** for single or batch predictions. It also provides intuitive charts for better understanding.
+
+🌐 **Live Demo**: [https://bluescan.onrender.com](https://bluescan.onrender.com)
 
 ---
 
-## 🔬 What it Does
+## 📸 Screenshots
 
-- ✅ Predicts **Benign / Malignant** based on input values.
-- 📤 Supports **CSV Upload** with multiple patient data.
-- 📊 Displays **Feature Visualization** with an interactive chart.
-- 💻 Built with **Flask + Sklearn + HTML/CSS + Chart.js**.
-- 🎨 Includes a clean UI with a medical-themed **blue gradient design**.
+| Home Page | Prediction Result |
+|-----------|-------------------|
+| ![Home](screenshots/homepage.png) | ![Result](screenshots/result.png) |
+
+> Replace these image paths with your actual screenshot files in a `screenshots/` folder
+
+---
+
+## 🧠 Features
+
+- 🔍 Predicts breast cancer using 30 diagnostic features
+- 🧾 Manual form input for one patient
+- 📂 Upload CSV for batch predictions
+- 📊 Visual graphs (e.g. prediction distribution)
+- 📥 Downloadable prediction results
+- 🌈 Clean, modern UI (gradient-based)
+- ⚙️ Deployed live on Render
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Frontend  | Backend  | ML Model  |
-|-----------|----------|-----------|
-| HTML, CSS (Bootstrap), Chart.js | Python, Flask | RandomForestClassifier |
+- Python 3.13
+- Flask
+- scikit-learn
+- pandas, matplotlib, seaborn
+- HTML, CSS (custom styling)
 
 ---
+
+## 📁 Project Structure
 
