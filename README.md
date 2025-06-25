@@ -39,5 +39,5 @@ BlueScan is a Machine Learning-powered web application that predicts the likelih
 
 ---
 
-## 📁 Project Structure
+
 
