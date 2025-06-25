@@ -13,7 +13,7 @@ BlueScan is a Machine Learning-powered web application that predicts the likelih
 |-----------|-------------------|
 | ![Home](screenshots/homepage.png) | ![Result](screenshots/result.png) |
 
-> Replace these image paths with your actual screenshot files in a `screenshots/` folder
+
 
 ---
 
